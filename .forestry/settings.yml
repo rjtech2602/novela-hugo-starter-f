@@ -16,7 +16,6 @@ sections:
   match: "**/*"
   templates:
   - post
-  - post
 - type: heading
   label: Data
 - type: directory
@@ -25,7 +24,6 @@ sections:
   create: all
   match: "**/_index.md"
   templates:
-  - author
   - author
 - type: directory
   path: config/_default
